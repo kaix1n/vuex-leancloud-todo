@@ -7,8 +7,9 @@
         .btn-add {
             background: transparent;
             color: #b8c7ce;
-            width: 100%;
-            margin: 5px 0 10px;
+            width: 90%;
+            margin: 5px auto 10px;
+            display: block;
         }
         .btn-add:hover {
             color: #3c8dbc;

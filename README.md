@@ -1,4 +1,5 @@
 # Target! - A Vue.js todolist
+![img](doc/screen.png)
 
 # Based on
 - Vue.js v2.x

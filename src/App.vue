@@ -12,6 +12,12 @@
 [v-cloak] {
     display: none;
 }
+.main-wrapper .sidebar {
+  padding: 20px 0;
+}
+.main-wrapper .sidebar .nav-sidebar {
+  margin: 0;
+}
 </style>
 
 <template>

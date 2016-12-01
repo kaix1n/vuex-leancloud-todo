@@ -85,7 +85,7 @@ export default {
                 date: ''
             },
             pagerData: {
-                size: 10,
+                size: 5,
                 current: 1
             },
             keyword: ''
