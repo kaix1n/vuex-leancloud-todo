@@ -6,5 +6,5 @@
 
 'use strict'
 export default {
-    systemName: 'Target'
+    systemName: 'Target!'
 }

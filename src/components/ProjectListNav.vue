@@ -1,5 +1,6 @@
 <style lang="scss">
     .project-nav {
+        overflow: auto;
         .nav-sidebar li > a {
             // overflow: auto;
         }
@@ -125,8 +126,8 @@ export default {
                 show: false,
                 type: 'banner',
                 title: {
-                    add: '添加',
-                    edit: '编辑'
+                    add: 'Add',
+                    edit: 'Edit'
                 }
             },
             dialogData: {

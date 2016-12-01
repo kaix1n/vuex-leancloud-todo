@@ -3,7 +3,7 @@
  * @author monopieces
  * @date 2016-10
  */
-
+var md5 = require('md5')
 import {
     LOGIN,
     SIGNUP,
@@ -28,7 +28,7 @@ const actions = {
     signupAction: function({ commit, store }, preload) {
         var user = new Lean.User()
         user.setUsername(preload.username)
-        user.setPassword(preload.password)
+        user.setPassword(md5(preload.password))
         user.setEmail(preload.email)
         user.signUp()
             .then(function(loginedUser) {
@@ -43,7 +43,7 @@ const actions = {
     // login
     loginAction: function({ dispatch, commit, store }, preload) {
         Lean.User
-            .logIn(preload.username, preload.password)
+            .logIn(preload.username, md5(preload.password))
             .then(function(loginedUser) {
                 commit(SET_CURRENT_USER, loginedUser)
                 preload.successCB(loginedUser)
