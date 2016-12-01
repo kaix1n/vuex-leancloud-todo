@@ -1,0 +1,89 @@
+body {
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', Arial, 'Hiragino Sans GB', sans-serif;
+}
+
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+/** ========================================================================================
+ * Dashboard
+ * @component Dashboard.vue
+ */
+.main {
+    padding: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.main .page-header {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.main-wrapper {
+    padding-top: 50px;
+}
+
+.main-wrapper .loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    margin-left: -16px;
+    margin-top: -16px;
+    z-index: 999999;
+}
+
+.main-wrapper .operation-panel {
+    float: right;
+}
+
+/** ========================================================================================
+ * Dashboard Sidebar
+ */
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #222d32;
+    border-right: 1px solid #eee;
+    transition: all 0.2s ease-out;
+}
+
+.sidebar.quicklink-mode {
+    display: block;
+}
+
+.sidebar .navbar-fixed-top {
+    border: 0;
+}
+
+.sidebar .nav-sidebar {
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.sidebar .nav-sidebar > li > a {
+    /*padding-right: 20px;*/
+    /*padding-left: 20px;*/
+}
+
+.sidebar .nav-sidebar > .active > a,
+.sidebar .nav-sidebar > .active > a:hover,
+.sidebar .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}

@@ -1,0 +1,58 @@
+/**
+ * Nav
+ */
+.navbar-inverse {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-right > li > a {
+    opacity: 0.8;
+    transition: opacity 0.2s ease-out;
+}
+.navbar-inverse .navbar-right > li > a:hover {
+    opacity: 1;
+}
+.navbar > .container-fluid a.navbar-brand {
+    margin-left: 0px;
+    display: block;
+    background-size: auto 70%;
+}
+
+/**
+ * Sidebar
+ */
+.nav-sidebar > li,
+.nav-sidebar ul > li { background: #222d32; }
+.sidebar a,
+.sidebar a:hover { text-decoration: none; color: #b8c7ce; border-left: 4px solid rgba(0, 0, 0, 0); }
+.sidebar a.router-link-active,
+.sidebar a.router-link-active:hover { color: #fff; background: #1e282c !important; border-left-color: #3c8dbc; }
+.sidebar li ul { padding: 0; }
+.sidebar li.collapse li { height: 0; transition: all .5s ease; overflow: hidden; }
+.sidebar li.expand li { height: 40px; transition: all .5s ease; }
+.sidebar li.collapse > a:after { content: '\E258'; position: absolute; top: 12px; right: 15px; display: inline-block; font-family: Glyphicons Halflings; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; color: #ddd; }
+.sidebar li.expand > a:after { content: '\E259'; position: absolute; top: 12px; right: 15px; display: inline-block; font-family: Glyphicons Halflings; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; color: #ddd; }
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus,
+.sidebar .nav > li li a:hover { background: #1e282c !important; }
+.sidebar li li a { display: block; padding: 10px 0 10px 40px; }
+
+
+/**
+ * Form
+ */
+.wrapper form > section { margin: 15px 0; }
+.wrapper .col-span { margin-right: 20px; }
+.wrapper .datetime-wrapper { display: flex; justify-content: space-around; }
+.wrapper .datetime-wrapper input { width: 49%; }
+.wrapper .input-group-addon { top: 0; }
+.wrapper .table tr.active { background-color: #fcf8e3; }
+.wrapper .division-line { margin-top: 20px; margin-bottom: 20px; border-top: 1px solid #cecece; }
+.wrapper table .preview { max-width: 200px; max-height: 100px;}
+.wrapper .page-header-nav { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid  #ddd; }
+.wrapper .modal-container { width: 600px; }
+.wrapper .label-invalid { background: grey; }

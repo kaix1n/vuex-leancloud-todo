@@ -1,0 +1,12 @@
+div, span, button, button:focus, button:active, .btn:focus, .btn:active, input, select {
+    outline: 0 !important;
+}
+ul > li {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+}

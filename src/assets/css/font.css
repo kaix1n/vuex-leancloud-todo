@@ -1,0 +1,40 @@
+/**
+ * @font
+ * @date 2016-11
+ */
+
+/* 超出部分隐藏 */
+ .hide-row {
+     overflow:hidden;
+     word-break:keep-all;
+     white-space:nowrap;
+     text-overflow:ellipsis;
+}
+.hide-n-row {
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* 强制不换行 */
+ .one-row {
+     white-space:nowrap;
+}
+/* 强制换行 */
+ .n-row {
+     word-wrap: break-word;
+     word-break: normal;
+}
+/* 中划线 */
+ .text-decoration-line {
+     text-decoration: line-through;
+}
+/* 两端对齐 */
+ .text-justify {
+     text-align: justify;
+     text-justify: distribute-all-lines;
+     text-align-last: justify;
+     -moz-text-align-last: justify;
+     -webkit-text-align-last: justify;
+}
