@@ -1,7 +1,7 @@
 {
   "name": "vuex-admin",
   "version": "2.0.0",
-  "description": "",
+  "description": "vue",
   "author": "monopieces",
   "private": true,
   "scripts": {
