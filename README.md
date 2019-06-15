@@ -1,4 +1,7 @@
 # Target! - A Vue.js todolist
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/monopieces/vuex-leancloud-todo.svg)](https://greenkeeper.io/)
+
 ![img](doc/screen.png)
 
 # Based on
